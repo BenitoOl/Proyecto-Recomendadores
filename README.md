@@ -7,7 +7,7 @@ Este trabajo propone un sistema de recomendación de videojuegos que incorpora e
 
 Se realizaron dos cuadernillos .ipynb trabajados en Google Colab:
 
-- `Proyecto_NLP_G06.ipynb`: Cuadernillo donde se cargo el BERT finetuneado y se utilizó para predecir el score de las 6 emociones de cada emoción, utilizando games.csv para precomputar las emociones de todos los juegos disponibles y no solo los filtrados, obteniendo games_emotion para futuros calculos en el otro cuadernillo. Para correr el archivo es necesario solo subir en colab el archivo games.csv y luego ejecutar las celdas.
+- `Proyecto_NLP_G06.ipynb`: Cuadernillo donde se cargo el BERT finetuneado y se utilizó para predecir el score de las 6 emociones de cada emoción, utilizando games.csv para precomputar las emociones de todos los juegos disponibles y no solo los filtrados, obteniendo games_emotion para futuros calculos en el otro cuadernillo. Para correr el archivo es necesario solo subir en colab el archivo games.csv y game-metadata.json, y luego ejecutar las celdas.
 - `Proyecto_G06.ipynb`: Cuadernillo con el todo el análisis de datos y prueba de modelos, en este solo se debe importar todos los csv filtrados, el csv de games_emotion y el de metadata. Esto funcionará, no obstante es importante ir corriendo el código secuencialmente en orden, debido a que en el modelo NLP por ejemplo, es necesario que se hayan ejecutado otras celdas anteriores. Por otro lado, también en la primera sección se deja el código para descargar el dataset completo de kaggle. Sin embargo, esto no es necesario y se puede empezar el código directamente desde la sección de análisis de datos subiendo los archivos antes mencionados.
 
 ## 📚 Dataset
